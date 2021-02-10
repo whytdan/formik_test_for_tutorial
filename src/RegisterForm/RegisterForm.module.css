@@ -1,0 +1,25 @@
+.form{
+    width: 500px;
+    height: auto;
+    padding: 35px;
+    margin: 50px auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input{
+    width: 100%;
+    padding: 15px;
+}
+
+.form button{
+    align-self: flex-end;
+    margin: 35px 0 25px;
+}
+.form label{
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
